@@ -1,0 +1,116 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Comida Típica de La Maná</title>
+    <style>
+        body {
+            background: url('imagenes/cascada.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .titulo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .titulo h1 {
+            font-size: 2rem;
+            color: #FFD700;
+            margin: 0;
+        }
+
+        .titulo img {
+            width: 120px;
+            border-radius: 8px;
+        }
+
+        .contenedor {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #FFD700;
+        }
+
+        .comida {
+            margin-bottom: 25px;
+            border-left: 5px solid #FFD700;
+            padding-left: 15px;
+        }
+
+        .comida img {
+            width: 300px;
+            max-width: 90%;
+            border-radius: 10px;
+            margin-top: 8px;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.6);
+            font-size: .9em;
+            margin-top: 40px;
+        }
+
+        .logo-footer {
+            width: 38px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="titulo">
+	<a href="index.html">
+	<img src="imagenes/encebollado.gif" alt="GIF Encebollado">
+	</a>
+        <h1>🍴 COMIDA TÍPICA</h1>
+        
+    </div>
+
+    <div class="contenedor">
+        <div class="comida">
+            <h3>1. Bolón de Verde</h3>
+            <p>Hecho con plátano verde majado y relleno de queso o chicharrón.</p>
+            <img src="imagenes/bolon.jpeg" alt="Bolón de Verde">
+        </div>
+
+        <div class="comida">
+            <h3>2. Tilapia Asada</h3>
+            <p>Pescado fresco asado con especias, acompañado de yuca o arroz.</p>
+            <img src="imagenes/tilapia.jpg" alt="Tilapia Asada">
+        </div>
+
+        <div class="comida">
+            <h3>3. Encebollado</h3>
+            <p>Sopa con pescado, yuca y cebolla morada. Ideal para recargar energía.</p>
+            <img src="imagenes/encebollado.jpg" alt="Encebollado">
+        </div>
+
+        <div class="comida">
+            <h3>4. Jugos Tropicales</h3>
+            <p>Jugos de guayusa, naranjilla, maracuyá y otras frutas amazónicas.</p>
+            <img src="imagenes/frutas.jpeg" alt="Jugos Tropicales">
+        </div>
+    </div>
+
+    <footer>
+        <img src="imagenes/logo_priss.png" alt="Logo Priss" class="logo-footer">
+        © 2025 Turismo La Maná | Página realizada por Priss Brito
+    </footer>
+
+</body>
+</html>

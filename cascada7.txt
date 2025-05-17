@@ -1,0 +1,126 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Las 7 Cascadas - La Maná</title>
+    <style>
+        body {
+            background: url('imagenes/cascada.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .titulo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .titulo img {
+            width: 150px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .titulo h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #FFD700;
+        }
+
+        .contenedor {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #FFD700;
+        }
+
+        .cascada {
+            margin-bottom: 25px;
+        }
+
+        .cascada img {
+            width: 80%;
+            max-width: 300px;
+            border-radius: 20px;
+            display: block;
+            margin-top: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.6);
+            font-size: .9em;
+            margin-top: 40px;
+        }
+
+        footer img {
+            width: 38px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="titulo">
+        <a href="index.html">
+            <img src="imagenes/cascadas1.gif" alt="GIF Cascadas">
+        </a>
+        <h1>LAS 7 CASCADAS</h1>
+    </div>
+
+    <div class="contenedor">
+        <h2>💧 Las Siete Cascadas</h2>
+
+        <div class="cascada">
+            <strong>Cascada 1:</strong> Fácil acceso, excelente para fotos.
+            <img src="imagenes/cascada1.jpg" alt="Cascada 1">
+        </div>
+
+        <div class="cascada">
+            <strong>Cascada 2:</strong> Caída pronunciada, rodeada de vegetación.
+            <img src="imagenes/cascada2.jpg" alt="Cascada 2">
+        </div>
+
+        <div class="cascada">
+            <strong>Cascada 3:</strong> Requiere esfuerzo, ofrece una piscina natural.
+            <img src="imagenes/cascada3.jpg" alt="Cascada 3">
+        </div>
+
+        <div class="cascada">
+            <strong>Cascada 4:</strong> Entre rocas, ideal para un descanso.
+            <img src="imagenes/cascada4.jpg" alt="Cascada 4">
+        </div>
+
+        <div class="cascada">
+            <strong>Cascada 5:</strong> Una de las más altas y fotogénicas.
+            <img src="imagenes/cascada5.jpg" alt="Cascada 5">
+        </div>
+
+        <div class="cascada">
+            <strong>Cascada 6:</strong> Entorno selvático, perfecta para observar fauna.
+            <img src="imagenes/cascada6.png" alt="Cascada 6">
+        </div>
+
+        <div class="cascada">
+            <strong>Cascada 7:</strong> La más lejana, ofrece una vista espectacular.
+            <img src="imagenes/cascada7.jpg" alt="Cascada 7">
+        </div>
+    </div>
+
+    <footer>
+        <img src="imagenes/logo_priss.png" alt="Logo Priss"> © 2025 Turismo La Maná | Página realizada por Priss Brito
+    </footer>
+
+</body>
+</html>
